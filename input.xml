@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="input.xsl" ?>
+
+<series xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="input.xsd">
+	<serie>Lost Girl</serie>
+	<serie>Middle of the Night Show</serie>
+	<serie>Paris Tours</serie>
+	<serie>The wire</serie>
+	<serie>Narco</serie>
+</series>

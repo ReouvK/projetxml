@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/ReouvenKidouchim/NetBeansProjects/ProjetXML/src/projetxml/model/DownloadOmdb.java</file>
+            <file>file:/Users/ReouvenKidouchim/NetBeansProjects/ProjetXML/src/projetxml/model/DbManagement.java</file>
+            <file>file:/Users/ReouvenKidouchim/NetBeansProjects/ProjetXML/src/projetxml/controller/Controller.java</file>
+            <file>file:/Users/ReouvenKidouchim/NetBeansProjects/ProjetXML/src/projetxml/model/DownloadAbs.java</file>
+            <file>file:/Users/ReouvenKidouchim/NetBeansProjects/ProjetXML/src/projetxml/model/DbInterface.java</file>
+            <file>file:/Users/ReouvenKidouchim/NetBeansProjects/ProjetXML/src/projetxml/exception/InputException.java</file>
+            <file>file:/Users/ReouvenKidouchim/NetBeansProjects/ProjetXML/src/projetxml/model/DownloadRSS.java</file>
+            <file>file:/Users/ReouvenKidouchim/NetBeansProjects/ProjetXML/src/projetxml/Main.java</file>
+            <file>file:/Users/ReouvenKidouchim/NetBeansProjects/ProjetXML/src/projetxml/view/View.java</file>
+            <file>file:/Users/ReouvenKidouchim/NetBeansProjects/ProjetXML/src/projetxml/config/configLoader.java</file>
+            <file>file:/Users/ReouvenKidouchim/NetBeansProjects/ProjetXML/src/projetxml/exception/configException.java</file>
+            <file>file:/Users/ReouvenKidouchim/NetBeansProjects/ProjetXML/src/projetxml/model/InfosTitre.java</file>
+            <file>file:/Users/ReouvenKidouchim/NetBeansProjects/ProjetXML/src/projetxml/model/XMLManagement.java</file>
+            <file>file:/Users/ReouvenKidouchim/NetBeansProjects/ProjetXML/src/projetxml/view/ViewInterface.java</file>
+            <file>file:/Users/ReouvenKidouchim/NetBeansProjects/ProjetXML/src/projetxml/exception/SystemException.java</file>
+            <file>file:/Users/ReouvenKidouchim/NetBeansProjects/ProjetXML/src/ressources/config.properties</file>
+        </group>
+    </open-files>
+</project-private>

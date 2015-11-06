@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+
+     <xs:element name="nom" type="xs:string"/>       
+     <xs:element name="titre" type="xs:string"/>
+     <xs:element name="titreComplet" type="xs:string"/>
+     <xs:element name="numero" type="xs:string"/>
+     <xs:element name="saison" type="xs:string"/>
+     <xs:element name="qualite" type="xs:string"/>
+     <xs:element name="lien" type="xs:string"/>
+     
+                            
+    <xs:element name="infoHash" type="xs:string"/>
+    <xs:element name="magnetURI" type="xs:string"/>
+    <xs:element name="seeds" type="xs:string"/>
+    <xs:element name="peers" type="xs:string"/>
+    <xs:element name="verified" type="xs:string"/>
+    <xs:element name="filename" type="xs:string"/>
+    <xs:element name="enclosure" type="xs:string"/>
+    
+    <xs:element name="torrent">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="infoHash" /> 
+            <xs:element ref="magnetURI" />
+            <xs:element ref="seeds" />
+            <xs:element ref="peers" />
+            <xs:element ref="verified" />
+            <xs:element ref="filename" />
+            <xs:element ref="enclosure"  />
+        </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="episode">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="titreComplet" /> 
+            <xs:element ref="numero" />
+            <xs:element ref="saison" />
+            <xs:element ref="qualite" />
+            <xs:element ref="lien" />
+            <xs:element ref="torrent" />
+        </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="episodes">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="episode" maxOccurs="unbounded" /> 
+        </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="serie">
+    <xs:complexType>
+        <xs:sequence
+            <xs:element ref="nom" />
+            <xs:element ref="episodes" maxOccurs="unbounded" /> 
+        </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+
+</xs:schema>
